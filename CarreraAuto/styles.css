@@ -1,0 +1,32 @@
+
+#container {
+    width: 800px;
+    height: 150px;
+    border: 1px solid #000;
+    position: relative;
+    background-color: #f3f3f3;
+    background-image: linear-gradient(to bottom, #bbb 1px, transparent 1px),
+                      linear-gradient(to right, #bbb 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: -1px -1px;
+  }
+  
+  
+  #car1 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+    transition: margin-left 0.5s;
+  }
+  #car2{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-90%);
+    transition: margin-left 0.5s;
+  }
+
+  
